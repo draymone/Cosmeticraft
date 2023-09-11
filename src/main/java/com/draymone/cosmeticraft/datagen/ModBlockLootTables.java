@@ -17,6 +17,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(BlockInit.BEAUTY_BLOCK.get());
+        dropSelf(BlockInit.PEBBLE.get());
     }
 
     @Override

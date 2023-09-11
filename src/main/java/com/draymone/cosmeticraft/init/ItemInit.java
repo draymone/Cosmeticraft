@@ -2,6 +2,7 @@ package com.draymone.cosmeticraft.init;
 
 import com.draymone.cosmeticraft.Cosmeticraft;
 import com.draymone.cosmeticraft.init.custom.ChapiChapoItem;
+import com.draymone.cosmeticraft.init.custom.PebbleItem;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -32,5 +33,8 @@ public class ItemInit {
                     new Item.Properties()
                             .rarity(Rarity.UNCOMMON)
             ));
+
+    public static final RegistryObject<Item> PEBBLE_ITEM = ITEMS.register("pebble",
+            () -> new PebbleItem(BlockInit.PEBBLE.get(), new Item.Properties()));
 
 }

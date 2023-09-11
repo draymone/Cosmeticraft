@@ -27,6 +27,7 @@ public class CreativeTabInit {
                     .icon(ItemInit.BEAUTY_BLOCK_ITEM.get()::getDefaultInstance)
                     .displayItems((displayParameters, output) -> {
                         output.accept(ItemInit.BEAUTY_BLOCK_ITEM.get());
+                        output.accept(ItemInit.PEBBLE_ITEM.get());
                     })
                     .build()
     );
