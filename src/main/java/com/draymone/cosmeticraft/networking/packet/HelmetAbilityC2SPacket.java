@@ -31,15 +31,10 @@ public class HelmetAbilityC2SPacket {
     public boolean handle(Supplier<NetworkEvent.Context> supplier) {
         NetworkEvent.Context context = supplier.get();
         context.enqueueWork(() -> {
-            Cosmeticraft.LOGGER.info("HelmetAbilityPacket recieved");
             ServerPlayer player = context.getSender();
             ServerLevel level = player.serverLevel();
 
             if (player.getItemBySlot(EquipmentSlot.HEAD).getItem() instanceof ChapiChapoItem item) { //Check if player has a Chapi Chapo
-
-                Cosmeticraft.LOGGER.info(
-                        "Chapi Chapo Cooldown is " + item.cooldown
-                );
                 if (item.cooldown <= 0) {
                     item.cooldown = 1200;
 
