@@ -2,10 +2,8 @@ package com.draymone.cosmeticraft.init;
 
 import com.draymone.cosmeticraft.Cosmeticraft;
 import com.draymone.cosmeticraft.init.custom.Pebble;
-import net.minecraft.client.resources.model.Material;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

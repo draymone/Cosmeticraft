@@ -1,7 +1,6 @@
 package com.draymone.cosmeticraft.init;
 
 import com.draymone.cosmeticraft.Cosmeticraft;
-import com.draymone.cosmeticraft.init.ItemInit;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ArmorItem;

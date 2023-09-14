@@ -6,7 +6,6 @@ import com.draymone.cosmeticraft.init.ItemInit;
 import com.draymone.cosmeticraft.init.client.PebbleRenderer;
 import com.draymone.cosmeticraft.init.entity.ModBlockEntities;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderers;
-import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
